@@ -8,12 +8,16 @@ body {
   padding-top: 15px;
 }
 nav input{
-  width: 150px !important;
+  width: 135px !important;
   display: inline-block;  
 }
 nav button{
   width: 70px !important;
   display: inline-block;  
+}
+
+.navbar-nav li a{
+  padding: 10px 30px;
 }
 
 @media (min-width: 992px) {
