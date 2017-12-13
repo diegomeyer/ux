@@ -26,19 +26,34 @@
         <nav class="">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-sm-4">
+                    <div class="col-md-3 col-sm-12">
                         <a class="navbar-brand" href="#">Escola Primaria</a>
 
                     </div>
-                    <div class="col-md-4 col-sm-4">
-
+                    <div class="col-md-3 col-sm-12">
+                            <form class="pull-right navbar-form navbar-left" action="">
+                                <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search" name="search">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-secondary" type="button"> <span class="glyphicon glyphicon-search"></span></button>
+                                    </span>
+                                </div>
+                            </form>
                     </div>
-                    <div class="col-md-4 col-sm-4">
+                    <div class="col-md-6 col-sm-12">
                         <div class="row">
-                            <form class="navbar-form navbar-left" action="">
-                                <input type="text" class="form-control" placeholder="Username" name="uname" required>
-                                <input type="password"  class="form-control" placeholder="Password" name="psw" required>
-                                <button type="submit"0 class="btn btn-success form-control">Login</button>
+                            <form class="navbar-form navbar-left" action="restrito_pais.html">
+                                <div class="form-row">
+                                    <div class="form-group col-md-5">
+                                        <input type="text" class="form-control" placeholder="Username" name="uname" required>
+                                    </div>
+                                    <div class="form-group col-md-5">
+                                        <input type="password"  class="form-control" placeholder="Password" name="psw" required>
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                        <button type="submit"0 class="btn btn-success form-control">Login</button>
+                                    </div>
+                                </div>
                             </form>
                         </div>
 
@@ -46,35 +61,32 @@
                 </div>
             </div>
         </nav>
-        <nav class="navbar">
-                <div class="container">
-                        <ul class="nav navbar-nav">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home
-                                        <span class="sr-only">(current)</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Escola</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Atividades</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Sobre</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Contato</a>
-                                </li>
-                            </ul>
-                  <form class="pull-right navbar-form navbar-left" action="">
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Search" name="search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                  </form>
+        <div class="navbar ">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- Button for smallest screens -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
                 </div>
-              </nav>
+                <div class="navbar-collapse collapse">
+                
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+            <div class="container">
+                
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav mainNav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="#">Escola</a></li>
+                        <li><a href="#">Atividades</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Contato</a></li>
+    
+                    </ul>
+                </div>
+            </div>
+        </div>
+       
         <!-- Page Content -->
         <div class="container">
             <div class="row">
@@ -91,15 +103,15 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
-                            <img src="img/pizza1.jpg" alt="Los Angeles" style="width:100%;">
+                            <img src="img/criancas1.png" alt="Algumas crianças lendo e brincando" style="width:100%;">
                             </div>
                     
                             <div class="item">
-                            <img src="img/pizza2.png" alt="Chicago" style="width:100%;">
+                            <img src="img/sala.png" alt="Sala de brinquedos e desenho" style="width:100%;">
                             </div>
                         
                             <div class="item">
-                            <img src="img/pizza3.jpg" alt="New york" style="width:100%;">
+                            <img src="img/sala2.png" alt="Sala dos berçarios e com alguns brinquedos" style="width:100%;">
                             </div>
                         </div>
                     

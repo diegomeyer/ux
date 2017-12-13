@@ -7,19 +7,27 @@
 body {
   padding-top: 15px;
 }
-nav input{
-  width: 135px !important;
-  display: inline-block;  
-}
-nav button{
-  width: 70px !important;
-  display: inline-block;  
-}
+
 
 .navbar-nav li a{
   padding: 10px 30px;
 }
 
+a:hover, a:focus{
+  color:#3d84e6;
+  text-decoration: underline;
+}
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus, 
+.navbar-nav > .open > a:hover, .navbar-nav > .open > a:focus,
+.navbar-nav > .active > a{
+	background: #3d84e6;
+	color: #fff !important;
+    border-radius: 0px;
+} 
+
+.navbar-toggle .icon-bar {
+  background-color: #000;
+}
 @media (min-width: 992px) {
   body {
     padding-top: 15px;
